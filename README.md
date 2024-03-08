@@ -40,7 +40,24 @@ therefore adding files and increasing it's size. Additionally the repository was
 
 ## Task 5
 
-![1](task3/task3_localhost.png)
+In task 5 all of the correct steps were followed , creating the dockerhub repository :
+
+![1](task5/create_dockerhub_repo.png)
+
+Generating and assigning the Access token : 
+
+![1](task5/dockerhub_access_token.png)
+
+And saving the correct values for secret keys DOCKERHUB_USER and DOCKERHUB_TOKEN:
+![1](task5/github_secrets.png)
+
+The yml file seems to have the correct values. There was a problem encountered with the dockerfile although it was working properly on task4.
+The issue couldn't be resolved after trying to alter the path, changing the line runs on to mac-os latest instead of ubuntu.
+![1](task5/workflow_error.png)
+
+
+
+
 
 
 
