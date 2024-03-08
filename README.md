@@ -53,6 +53,8 @@ And saving the correct values for secret keys DOCKERHUB_USER and DOCKERHUB_TOKEN
 
 The yml file seems to have the correct values. There was a problem encountered with the dockerfile although it was working properly on task4.
 The issue couldn't be resolved after trying to alter the path, changing the line runs on to mac-os latest instead of ubuntu.
+Even after changing the line to the linux-64 bit version of hugo : RUN curl -L -o /usr/local/bin/hugo https://github.com/gohugoio/hugo/releases/download/v0.123.4/hugo_extended_0.123.4_Linux-64bit.deb ,
+The same error was printed.
 ![1](task5/workflow_error.png)
 
 
