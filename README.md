@@ -18,3 +18,5 @@ There are screenshots in the folder task1 for each subtask. The response of the 
 
 
 ### Task 2
+  There are screenshots in the folder for each subtask and the answer to c is bellow:
+![1](task2/2_c.png)
