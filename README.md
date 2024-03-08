@@ -33,12 +33,14 @@ After copying the files from the local html folder to the docker container with 
 *d ) The image size is 371MB, bigger than the base image since dependencies like make , curl, hugo git were installed on top of the base nginx image
 therefore adding files and increasing it's size. Additionally the repository was cloned and the html file was copyied effecting the image size as well.
 
-![1](task3/4_build+run.png)
+![1](task4/4_build+run.png)
 
 
 ![1](task4/Dockerfile.png.png)
 
 ## Task 5
+
+![1](task3/task3_localhost.png)
 
 
 
