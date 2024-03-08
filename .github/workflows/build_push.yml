@@ -18,7 +18,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./task4
-          file: ./task4/Dockerfile
+          context: task4/
+          dockerfile: Dockerfile
           push: true
           tags: antoniakras/task5:latest
