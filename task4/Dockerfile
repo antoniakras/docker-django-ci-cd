@@ -14,7 +14,7 @@ RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.123.4/hugo_ext
     git submodule init && \
     git submodule update && \
     make && \
-    cp -a html/public/. /usr/share/nginx/html/
+    cp -a html/public/ /usr/share/nginx/html/
 
 # Expose to port localhost 8080
 EXPOSE 8080
