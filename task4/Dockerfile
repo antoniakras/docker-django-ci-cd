@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y curl && \
     apt-get install -y git
 # Install hugo clone repository and build website 
-RUN curl -L -o /usr/local/bin/hugo https://github.com/gohugoio/hugo/releases/download/v0.123.4/hugo_extended_0.123.4_Linux-64bit.deb && \
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.123.4/hugo_extended_0.123.4_linux-arm64.deb -o hugo.deb && \
     apt install ./hugo.deb && \
     git clone https://github.com/chazapis/hy548.git && \
     cd hy548 && \
