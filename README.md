@@ -36,7 +36,7 @@ therefore adding files and increasing it's size. Additionally the repository was
 ![1](task4/4_build+run.png)
 
 
-![1](task4/Dockerfile.png.png)
+![1](task4/Dockerfile.png)
 
 ## Task 5
 
