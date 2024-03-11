@@ -1,6 +1,7 @@
-name : Build and Push image
+name: Build and Push image
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
 
 jobs:
   push_to_registry:
@@ -9,13 +10,18 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
-      
+
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-    
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
@@ -23,3 +29,4 @@ jobs:
           file: ./task4/Dockerfile
           push: true
           tags: antoniakras/task5:latest
+
