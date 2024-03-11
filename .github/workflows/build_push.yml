@@ -20,6 +20,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: ./task4
-          file: Dockerfile
+          file: ./task4/Dockerfile
           push: true
           tags: antoniakras/task5:latest
