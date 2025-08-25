@@ -1,4 +1,4 @@
-# Projectt overview
+# Project overview
 ---------------------
 
 Containerized a Django web application using Docker, implemented persistence via volumes, optimized image size, and published it to Docker Hub. Automated builds & deployments using GitHub Actions (CI/CD). Demonstrated Docker networking, container debugging, and multi-instance deployment
